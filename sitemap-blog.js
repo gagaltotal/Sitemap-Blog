@@ -1,10 +1,7 @@
 /**
  * BLOGGER TOC WITH ACCORDION EFFECT (SORT BY LABEL)
  * ---------------------------------------------------
- * by Taufik Nurrohman
- * URL: http://gplus.to/tovic
- * Modified by Arlina Fitriyani
- * URL: http://gplus.to/arlina
+ * Open Source
  * ---------------------------------------------------
  */
 
@@ -76,7 +73,7 @@ var toc_config = {
     }
     ;
     var i = o.createElement("script");
-    i.src = toc_config.url.replace(/\/$/, "") + "/feeds/posts/summary?alt=json-in-script&max-results=" + toc_config.maxResults + "&callback=" + toc_config.jsonCallback,
+    i.src = toc_config.url.replace(/\/$/, "") + "https://www.gagaltotal666.my.id/feeds/posts/summary?alt=json-in-script&max-results=" + toc_config.maxResults + "&callback=" + toc_config.jsonCallback,
     "onload" == toc_config.delayLoading ? e.onload = function() {
         c.appendChild(i)
     }
