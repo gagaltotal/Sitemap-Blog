@@ -73,7 +73,7 @@ var toc_config = {
     }
     ;
     var i = o.createElement("script");
-    i.src = toc_config.url.replace(/\/$/, "") + "https://www.gagaltotal666.my.id/feeds/posts/summary?alt=json-in-script&callback=recentposts&max-results=99999&start-index=501" + toc_config.maxResults + "&callback=" + toc_config.jsonCallback,
+    i.src = toc_config.url.replace(/\/$/, "") + "/feeds/posts/summary?alt=json-in-script&callback=recentposts&max-results=99999&start-index=501" + toc_config.maxResults + "&callback=" + toc_config.jsonCallback,
     "onload" == toc_config.delayLoading ? e.onload = function() {
         c.appendChild(i)
     }
