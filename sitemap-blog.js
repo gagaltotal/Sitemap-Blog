@@ -7,10 +7,10 @@
 
 /*
 var toc_config = {
-	url: 'http://arlinadesign.blogspot.com',
+	url: 'https://www.gagaltotal666.my.id',
 	containerId: 'table-of-content',
 	showNew: 15,
-	newText: ' <strong style="font-weight:normal;font-style:normal;color:#fff;font-size:11px;background:#5c5a78;padding:1px 6px 3px 6px;line-height:normal;float:right;border-radius:3px;">baru</strong>',
+	newText: ' <strong style="font-weight:normal;font-style:normal;color:#fff;font-size:11px;background:#5c5a78;padding:1px 6px 3px 6px;line-height:normal;float:right;border-radius:3px;">news</strong>',
 	sortAlphabetically: {
 		thePanel: true,
 		theList: true
@@ -73,7 +73,7 @@ var toc_config = {
     }
     ;
     var i = o.createElement("script");
-    i.src = toc_config.url.replace(/\/$/, "") + "https://www.gagaltotal666.my.id/feeds/posts/summary?alt=json-in-script&max-results=" + toc_config.maxResults + "&callback=" + toc_config.jsonCallback,
+    i.src = toc_config.url.replace(/\/$/, "") + "https://www.gagaltotal666.my.id/feeds/posts/summary?alt=json-in-script&callback=recentposts&max-results=99999&start-index=501" + toc_config.maxResults + "&callback=" + toc_config.jsonCallback,
     "onload" == toc_config.delayLoading ? e.onload = function() {
         c.appendChild(i)
     }
